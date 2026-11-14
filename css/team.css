@@ -1,0 +1,23 @@
+.our-team {
+  background: #f4f4fd;
+}
+
+.our-team h3 p {
+  text-align: center;
+}
+
+.team {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+}
+
+.our-team ul > li {
+  background: white;
+}
+
+.our-team-center {
+  text-align: center;
+}
