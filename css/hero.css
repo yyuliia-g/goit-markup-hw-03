@@ -2,33 +2,44 @@
   background: #2e2f42;
 }
 
+.hero {
+  padding: 188px 0;
+}
+
 .page-title {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto 48px;
+  max-width: 496px;
   color: #fff;
 }
 
-.container {
+.button-container {
+  display: block;
+  white-space: nowrap;
   background: #4d5ae5;
   cursor: pointer;
   color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 16px 32px;
+  margin: 0 auto 48px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.container:hover {
-  background-color: #404bbf;
-}
-
-.container:focus {
+.button-container:hover .button-container:focus {
   background-color: #404bbf;
 }
 
 button {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;

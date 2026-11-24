@@ -1,50 +1,73 @@
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo .accent {
   color: #4d5ae5;
 }
 
-.list,
-.logo {
-  text-decoration: none;
+.header {
+  padding: 0 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
-.contact-list .list {
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  text-transform: lowercase;
+  text-transform: capitalize;
+  margin-right: auto;
+  margin-left: 76px;
+}
+
+.nav-list-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-list {
+  display: inline-block;
+  color: #2e2f42;
+  padding: 24px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list .contact-list:hover .nav-list .contact-list:focus {
+  color: #404bbf;
+}
+
+.contact-list {
   font-style: normal;
   color: #434455;
+  padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contact-list .list:hover {
-  color: #404bbf;
+
+.address-menu {
+  text-transform: lowercase;
 }
 
-.contact-list .list:focus {
-  color: #404bbf;
-}
-
-.nav-list .list:hover {
-  color: #404bbf;
-}
-
-.nav-list .list:focus {
-  color: #404bbf;
-}
-
-.nav-list .list {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.contact-list-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }

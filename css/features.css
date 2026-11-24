@@ -4,3 +4,27 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.features {
+  display: flex;
+  gap: 24px;
+}
+
+.features li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
+.features li p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #48495f;
+}
+
+.ftr-items {
+  width: 264px;
+}
